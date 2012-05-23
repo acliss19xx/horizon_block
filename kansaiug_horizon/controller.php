@@ -15,12 +15,7 @@ class KansaiugHorizonBlockController extends BlockController {
 	protected $btCacheBlockOutputForRegisteredUsers = false;
 	protected $btCacheBlockOutputLifetime = CACHE_LIFETIME;
 	
-
-
-
-
-
-
-
-
+	public function getSearchableContent() {
+		return $this->content;
+	}
 }
