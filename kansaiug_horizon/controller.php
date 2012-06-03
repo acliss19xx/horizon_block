@@ -4,7 +4,6 @@ class KansaiugHorizonBlockController extends BlockController {
 	
 	protected $btName = '水平線';
 	protected $btDescription = '';
-	protected $btTable = 'btKansaiugHorizon';
 	
 	protected $btInterfaceWidth = "700";
 	protected $btInterfaceHeight = "450";
