@@ -64,6 +64,18 @@
 </div>
 
 <div class="ccm-block-field-group">
+	横表示位置
+	<?php 
+	$options = array(
+		'left' => '左',
+		'center' => '中央',
+		'right' => '右',
+	);
+	echo $form->select('align', $options, $align);
+	?>
+</div>
+
+<div class="ccm-block-field-group">
 	高さ
 	<?php 
 	$options = array(

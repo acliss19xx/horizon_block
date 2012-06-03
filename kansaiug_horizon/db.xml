@@ -10,6 +10,8 @@
 
 		<field name="width" type="I"><default value="90" /></field>
 
+		<field name="align" type="X"><default value="left" /></field>
+
 		<field name="color" type="X"><default value="black" /></field>
 
 		<field name="height" type="I"><default value="5" /></field>
